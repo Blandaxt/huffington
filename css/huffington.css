@@ -1,0 +1,274 @@
+*{
+box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 242px;
+
+}
+.logo a{
+width: 20%;
+height: 150px;
+background: green;
+float: left;
+border: 1px solid white;
+padding-left: 63px;
+padding-top: 63px;
+color: white;
+text-decoration: none;
+}
+.middle{
+width: 60%;
+height: 150px;
+background: green;
+color: white;
+float: left;
+border: 1px solid white;
+padding-left: 126px;
+padding-top: 23px;
+font-size: 26px;
+}
+.side{
+  padding-left: 91px;
+  padding-top: 66px;
+}
+.side a{
+  margin-left: 6px;
+  color: white;
+  text-decoration: none;
+}
+.side{
+  width: 20%;
+  height: 150px;
+  background: green;
+  color: white;
+  float: left;
+  border: 1px solid white;
+}
+.side i{
+  width:22%;
+  height: 30px;
+}
+nav{
+  width: 100%;
+  height: 75px;
+  color: black;
+  float: left;
+}
+.menu{
+  display: none;
+}
+li{
+  list-style: none;
+  font-size: 16px;
+  float: left;
+  margin-left: 16px;
+  padding-top: 11px;
+  font-weight: bold
+}
+ nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+main{
+  width: 100%;
+  height: 880px;
+
+  float: left;
+}
+main h1{
+  font-size: 90px;
+  font-weight: bold;
+  padding-left: 31px;
+  padding-right: 27px;
+  padding-top: 38px;
+
+  float: left;
+  width: 100%;
+  text-align: center;
+  height: 300px;
+}
+main img{
+  width: 25%;
+  height: 400px;
+  margin-left: 13px;
+
+  float:left;
+}
+main > section{
+  margin-left: 231px;
+
+}
+.mainbottom{
+  width: 100%;
+  height: 400px;
+  float:left;
+
+}
+.mainbottom section{
+width: 20%;
+margin: 29px;
+
+border-top: 2px solid green;
+float: left;
+height: 267px;
+margin-top: 51px;
+}
+.mainbottom a{
+  text-decoration: none;
+}
+.mainbottom img{
+  width: 100%;
+  height: 186px;
+}
+.mainbottom a{
+  color: black;
+}
+.base{
+  width: 100%;
+  height: 400px;
+  float:left;
+
+}
+.base section{
+width: 20%;
+margin: 29px;
+
+border-top: 2px solid green;
+float: left;
+height: 267px;
+margin-top: 51px;
+}
+.base a{
+  text-decoration: none;
+  color: black;
+}
+.base img{
+  width: 100%;
+  height: 186px;
+}
+.base a{
+  color: black;
+}
+footer{
+  clear: both;
+  background: black;
+  color: white;
+
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+/* ...............Tablet................ */
+/* .......................................... */
+@media only screen and (max-width: 1203px){
+  .boom{
+    display: none;
+  }
+ .mainbottom section{
+  margin: 70px;
+}
+  .base section{
+    margin: 70px;
+  }
+}
+@media only screen and (max-width: 1090px){
+  main h1{
+    font-size: 74px;
+  }
+ .when{
+  display: none;
+  }
+  main img{
+    height: 300px;
+  }
+  .base section{
+      margin: 100px;
+      padding-left: 20px;
+  }
+  .mainbottom section{
+   margin: 100px;
+   padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 995px){
+  .middle h2{
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 888px){
+  .middle{
+    width: 100%;
+    text-align: center;
+  }
+  .logo{
+    display: none;
+  }
+  .side{
+    display: none;
+  }
+  .remove-888{
+    display: none;
+  }
+}
+@media only screen and (max-width: 686px){
+  header{
+    height: 80px;
+  }
+  .menu{
+    display: block;
+    color: white;
+    border: 1px solid white;
+    background: white;
+    width: 12%;
+    height: 46px;
+    margin-top: -101px;
+  }
+  li{
+    display: none;
+  }
+  main h1{
+    font-size: 50px;
+  }
+  main > section{
+    margin-left: 40px;
+  }
+  main img{
+    width: 70%;
+    height: 160px;
+    margin-top: 9px;
+  }
+  .mainbottom section{
+  width: 75%;
+  height: 231px;
+  margin: 30px 10px 0px 100px;
+  }
+  .mainbottom img{
+  height: 155px;
+  margin: 2px;
+  width: 92%;
+  }
+  .base section{
+  width: 75%;
+  height: 231px;
+  margin: 30px 10px 0px 100px;
+  }
+  .base img{
+  height: 155px;
+  margin: 2px;
+  width: 92%;
+  }
+  .remove-686{
+    display: none;
+  }
+  .base{
+    height: 300px;
+  }
+  .mainbottom{
+    height: 300px;
+  }
+}
